@@ -9,9 +9,9 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 10rem;
+    font-size: 7rem;
     color: #32f5c8;
-    line-height: 11rem;
+    line-height: 8rem;
 
 }
 
@@ -46,9 +46,9 @@ img {
     .text {
         font-size: 1.5rem;
     }
+
     .header {
-        font-size: 4rem;
-        line-height: 4rem;
+        font-size: 1px;
     }
 
     .twitter {

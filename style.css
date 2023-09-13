@@ -72,7 +72,7 @@ img {
 
     .user-avatar-2 {
         position: absolute;
-        right: 9rem;
+        left: 14rem;
         top: 9rem;
         width: 10rem;
         z-index: -1;

@@ -9,7 +9,7 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 12rem;
+    font-size: 10rem;
     color: #32f5c8;
     line-height: 11rem;
 
@@ -42,11 +42,38 @@ img {
 }
 
 @media (max-width: 480px) {
+
+    .text {
+        font-size: 1.5rem;
+    }
+    .header {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .twitter {
+        margin-top: 4rem;
+        font-size: 1.5rem;
+    }
+
+    #twitter {
+        position: relative;
+        margin-top: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .subbutton {
+        margin-top: 1px;
+    }
+
     .user-avatar-1 {
         display: none;
     }
 
     .user-avatar-2 {
+        position: absolute;
+        right: 9rem;
+        top: 9rem;
         width: 10rem;
         z-index: -1;
     }
@@ -81,8 +108,9 @@ img {
 }
 
 .user-avatar-2 {
+    position: absolute;
     top: 3.2rem;
-    left: 3rem;
+    left: 200px;
     z-index: -1;
     width: 10rem;
 }
@@ -164,8 +192,8 @@ img {
 
 @media (max-width: 480px) {
     .user-avatar-6 {
-        top: 35rem;
-        left: 20rem;
+        top: 36rem;
+        left: 10rem;
         width: 12rem;
     }
 }

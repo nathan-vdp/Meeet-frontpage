@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12rem;
+    color: #32f5c8;
+    line-height: 11rem;
+
+}
+
+.logo {
+    width: 170px;
+}
+
+.text {
+    text-align: start;
+    color: #b1c3cd;
+    font-size: 2rem;
+    width: 75%;
+}
+
+img {
+    width: 4rem;
+    cursor: pointer;
+}
+
+.twitter {
+    margin-top: 10px;
+    color: #b1c3cd;
+    font-size: xx-large;
+}
+
+.subbutton {
+    margin-top: 2rem;
+}
+
+@media (max-width: 480px) {
+    .user-avatar-1 {
+        display: none;
+    }
+
+    .user-avatar-2 {
+        width: 10rem;
+        z-index: -1;
+    }
+
+    .header {
+        margin-top: 20px;
+        font-size: 8rem;
+        line-height: 3.2rem;
+        font-size: 4rem;
+    }
+
+    .user-avatar-4 {
+        display: none;
+    }
+
+    .user-avatar-5 {
+        display: none;
+    }
+
+    .user-avatar-3 {
+        z-index: -1;
+    }
+}
+
+@media (min-width: 1025px) {
+    .user-avatar-1 {
+        top: 31rem;
+        right: 18rem;
+        width: 14rem;
+        z-index: -1;
+    }
+}
+
+.user-avatar-2 {
+    top: 3.2rem;
+    left: 3rem;
+    z-index: -1;
+    width: 10rem;
+}
+
+.user-avatar-3 {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    width: 9rem;
+    z-index: 1;
+}
+
+@media (max-width: 480px) {
+    .user-avatar-3 {
+        top: 8rem;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 1025px) {
+    .user-avatar-3 {
+        top: 9rem;
+        width: 8.5rem;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 480px) {
+    .user-avatar-4 {
+        display: block;
+        position: absolute;
+        top: 52rem;
+        right: 13rem;
+        width: 21.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .user-avatar-4 {
+        right: 33rem;
+        width: 14rem;
+        top: 45rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .user-avatar-5 {
+        top: 1.5rem;
+        right: 76rem;
+        width: 14rem;
+    }
+}
+
+@media (min-width: 480px) {
+    .user-avatar-5 {
+        display: block;
+        position: absolute;
+        top: 10.5rem;
+        right: 25.5rem;
+        width: 10.5rem rem;
+    }
+}
+
+.user-avatar-6 {
+    position: absolute;
+    top: 42rem;
+    left: 21.4rem;
+    width: 18.5rem;
+    z-index: -1;
+}
+
+@media (min-width: 1025px) {
+    .user-avatar-6 {
+        top: 44rem;
+        left: 92rem;
+        width: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .user-avatar-6 {
+        top: 35rem;
+        left: 20rem;
+        width: 12rem;
+    }
+}

@@ -1,5 +1,5 @@
 # Meeet-frontpage CodeWell challenge.
-This is a front-end project for a front page named "Meeet" It is designed to provide a modern look to a frontpage with mobile first in mind (This is my first project where I keeped mobile first in mind). **Please note** that this project is entirely front-end-based and does not include any database or back-end functionality.
+This is a front-end project for a front page named "Meeet" It is designed to provide a modern look to a frontpage with mobile first in mind (This is my first project where I kept mobile first in mind). **Please note** that this project is entirely front-end-based and does not include any database or back-end functionality.
 
 ## Table of content:
 - Project Description
